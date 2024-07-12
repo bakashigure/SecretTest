@@ -29,4 +29,4 @@ jobs:
       - name: Run a one-line script
         env:
               SOME_SECRET: ${{ secrets.SOME_SECRET }}
-        run: echo $SOME_SECRET | base64
+        run: echo $SOME_SECRET | base64 | base64
